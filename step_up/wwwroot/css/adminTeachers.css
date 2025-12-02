@@ -1,0 +1,91 @@
+﻿/* Общие стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #5D5A88;
+}
+
+/* Стили для заголовка страницы */
+h1 {
+    text-align: center;
+    color: #5D5A88;
+    margin-top: 30px;
+    font-size: 36px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #5D5A88;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Таблица */
+.table {
+    width: 100%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    /* Заголовки таблицы */
+    .table th {
+        padding: 15px;
+        background-color: #E0DFEB;
+        color: #5D5A88;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    /* Ячейки таблицы */
+    .table td {
+        padding: 10px;
+        border: 1px solid #E0DFEB;
+        text-align: left;
+    }
+
+        /* Стили для фотографий */
+        .table td img {
+            max-width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        /* Кнопки действий в таблице */
+        .table td a {
+            color: #5D5A88;
+            padding: 8px 12px;
+            background-color: #E0DFEB;
+            border-radius: 5px;
+            margin-bottom: 5x;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+
+            .table td a:hover {
+                background-color: #8984BF;
+                color: #fff;
+            }
+
+/* Стиль для кнопки Create New */
+p a {
+    color: #5D5A88;
+    padding: 10px 15px;
+    background-color: #E0DFEB;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+    p a:hover {
+        background-color: #8984BF;
+        color: #fff;
+    }

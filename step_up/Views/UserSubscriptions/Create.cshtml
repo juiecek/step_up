@@ -1,0 +1,25 @@
+﻿@model step_up.Models.UserSubscription
+@{
+    ViewBag.Title = "Добавить абонемент пользователю";
+}
+
+<h2>Добавить абонемент</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="UserId">Пользователь</label>
+        <select asp-for="UserId" class="form-control" asp-items="ViewBag.Users">
+            <option value="">Выберите пользователя</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SubscriptionId">Абонемент</label>
+        <select asp-for="SubscriptionId" class="form-control" asp-items="ViewBag.Subscriptions">
+            <option value="">Выберите абонемент</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-action="Index" class="btn btn-secondary">Назад</a>
+</form>

@@ -1,0 +1,39 @@
+﻿@{
+    var isAdmin = Context.Request.Path.StartsWithSegments("/Admin"); // Проверяем, если текущий путь начинается с "/Admin", значит это админская часть
+    var layoutFile = isAdmin ? "_Layout.Admin.cshtml" : "_Layout.Client.cshtml"; // Выбираем макет в зависимости от части сайта
+}
+
+@{
+    Layout = "~/Views/Shared/" + layoutFile; // Указываем путь к выбранному макету
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - step_up</title>
+
+    <!-- Общие стили -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <!-- Специфичные стили для клиентской части -->
+    @if (!isAdmin)
+    {
+        <link rel="stylesheet" href="~/css/site.css" />
+    }
+
+    <!-- Специфичные стили для админской части -->
+    @if (isAdmin)
+    {
+        <link rel="stylesheet" href="~/css/admin.css" />
+    }
+
+    <link rel="stylesheet" href="~/step_up.styles.css" asp-append-version="true" />
+</head>
+<body>
+    @RenderBody() <!-- Здесь будет рендериться контент страницы -->
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

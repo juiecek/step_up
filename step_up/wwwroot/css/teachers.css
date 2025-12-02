@@ -1,0 +1,319 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #5D5A88;
+}
+
+.header {
+    text-align: center;
+    color: #5D5A88;
+    background-color: #E0DFEB;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+.logoa {
+    color: #5D5A88;
+    text-decoration: none;
+}
+.nav-links a {
+    font-weight: 500;
+    color: #5D5A88;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+    .social-links img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+.icon {
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    display: block;
+}
+
+.icon-container {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+h1{
+    font-size:60px;
+}
+.teacher {
+    margin-top: 70px;
+    display: flex;
+    max-width: 1200px;
+    padding: 20px;
+}
+.teacher img{
+    width:400px;
+    height:500px;
+    border-radius:10px;
+    object-fit:cover;
+    margin-right:20px;
+   
+}
+.teacher .info{
+    flex:1;
+    text-align:left;
+}
+    .teacher .info h2 {
+        margin: 0 0 10px;
+        color: #5D5A88;
+        font-size:40px;
+    }
+
+    .teacher .info p {
+        margin: 0;
+        color: #5D5A88;
+        font-size:18px;
+        
+    }
+
+
+
+/* Стили для формы добавления отзыва */
+.add-review {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .add-review h2 {
+        font-size: 28px;
+        color: #5D5A88;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .add-review label {
+        font-size: 18px;
+        color: #5D5A88;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .add-review select,
+    .add-review input[type="number"],
+    .add-review textarea {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        resize: none;
+    }
+
+    .add-review textarea {
+        height: 150px;
+    }
+
+    .add-review button {
+        background-color: #5D5A88;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        width: 100%;
+    }
+
+        .add-review button:hover {
+            background-color: #4e4b76;
+        }
+
+
+/* Стили для отзывов */
+.all-reviews {
+    margin-top: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.reviews-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .reviews-list li {
+        background-color: #f1f1f1;
+        padding: 20px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: left; /* Выравнивание по левому краю */
+    }
+
+        .reviews-list li strong {
+            color: #5D5A88;
+            font-size: 18px;
+        }
+
+        .reviews-list li em {
+            color: #4e4b76;
+            font-style: normal;
+            font-size: 16px;
+        }
+
+        .reviews-list li span {
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+            display: block;
+        }
+
+        .reviews-list li p {
+            font-size: 16px;
+            color: #333;
+        }
+
+/* Стили для строки "Войдите, чтобы оставить отзыв" */
+.login-to-review {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f3f2fa;
+    border-left: 6px solid #5D5A88;
+    font-size: 18px;
+    color: #5D5A88;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+    .login-to-review em {
+        font-style: normal;
+    }
+
+    .login-to-review a {
+        color: #5D5A88;
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 1px dashed #5D5A88;
+        transition: all 0.3s;
+    }
+
+        .login-to-review a:hover {
+            color: #4e4b76;
+            border-bottom: 1px solid transparent;
+        }
+
+
+
+.contacts {
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+    .contacts h2 {
+        color: #5D5A88;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+.contacts-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.contacts .info {
+    flex: 1 1 40%;
+}
+
+.contacts .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.contacts .map img {
+    /* width: 100%;
+    border-radius: 10px;
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    order: 2;
+    align-items: flex-start;*/
+    flex: 0 1 60%; /* Карта занимает оставшееся пространство */
+    max-width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.contacts .social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.footer {
+    background-color: #222;
+    color: #5D5A88;
+    padding: 30px 0;
+    text-align: center;
+}
+
+    .footer h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .footer p {
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        color: #5D5A88;
+        text-decoration: underline;
+    }
+
+        .footer a:hover {
+            text-decoration: none;
+        }
+

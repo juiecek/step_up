@@ -1,0 +1,569 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\step_up.bundle.scp.css",
+      "PackagePath": "staticwebassets\\step_up.oohs32f1bx.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\adminTeachers.css",
+      "PackagePath": "staticwebassets\\css\\adminTeachers.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\glavn.css",
+      "PackagePath": "staticwebassets\\css\\glavn.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\history.css",
+      "PackagePath": "staticwebassets\\css\\history.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\record.css",
+      "PackagePath": "staticwebassets\\css\\record.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\schedule.css",
+      "PackagePath": "staticwebassets\\css\\schedule.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\shedule.css",
+      "PackagePath": "staticwebassets\\css\\shedule.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\teachCreate.css",
+      "PackagePath": "staticwebassets\\css\\teachCreate.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\teachDelete.css",
+      "PackagePath": "staticwebassets\\css\\teachDelete.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\teachEdit.css",
+      "PackagePath": "staticwebassets\\css\\teachEdit.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\css\\teachers.css",
+      "PackagePath": "staticwebassets\\css\\teachers.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\icon.ico",
+      "PackagePath": "staticwebassets\\icon.ico"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\151661c2-8ad6-4621-baba-9874cb59740f.jpg",
+      "PackagePath": "staticwebassets\\images\\151661c2-8ad6-4621-baba-9874cb59740f.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\1544d0ef-f112-498b-956e-eb3a98c3e118.jpg",
+      "PackagePath": "staticwebassets\\images\\1544d0ef-f112-498b-956e-eb3a98c3e118.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\1fc05d8a-e9a9-489a-8d6a-1d9c90435e07.jpg",
+      "PackagePath": "staticwebassets\\images\\1fc05d8a-e9a9-489a-8d6a-1d9c90435e07.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\2929655a-d39a-42b1-b14b-b239dca8a3d4.jpg",
+      "PackagePath": "staticwebassets\\images\\2929655a-d39a-42b1-b14b-b239dca8a3d4.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\38e9b788-bfa6-4450-b2f5-58e248249aa2.jpg",
+      "PackagePath": "staticwebassets\\images\\38e9b788-bfa6-4450-b2f5-58e248249aa2.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\4c13acaa-8f07-4808-b4a0-7553df1c7e14.jpg",
+      "PackagePath": "staticwebassets\\images\\4c13acaa-8f07-4808-b4a0-7553df1c7e14.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\52d63485-d8ba-4212-8bf7-db4f23454a17.jpg",
+      "PackagePath": "staticwebassets\\images\\52d63485-d8ba-4212-8bf7-db4f23454a17.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\5f79ed08-45ce-4da2-9be0-679e61d2c82b.jpg",
+      "PackagePath": "staticwebassets\\images\\5f79ed08-45ce-4da2-9be0-679e61d2c82b.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\78afafc8-835d-4ece-ae8a-0ca45ecc2007.jpg",
+      "PackagePath": "staticwebassets\\images\\78afafc8-835d-4ece-ae8a-0ca45ecc2007.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\7aaba284-61be-486a-bc5b-23b6c7d23333.jpg",
+      "PackagePath": "staticwebassets\\images\\7aaba284-61be-486a-bc5b-23b6c7d23333.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\7ca32a73-a35a-432b-8b2d-a1c24ee8537d.jpg",
+      "PackagePath": "staticwebassets\\images\\7ca32a73-a35a-432b-8b2d-a1c24ee8537d.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\7d89b3a4-c167-410e-b3b7-2a0f0436fee6.jpg",
+      "PackagePath": "staticwebassets\\images\\7d89b3a4-c167-410e-b3b7-2a0f0436fee6.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\7dd45aa5-002f-4f75-8afa-72d183153fa6.jpg",
+      "PackagePath": "staticwebassets\\images\\7dd45aa5-002f-4f75-8afa-72d183153fa6.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\8e74814a-88cd-4589-9572-ea5945566231.jpg",
+      "PackagePath": "staticwebassets\\images\\8e74814a-88cd-4589-9572-ea5945566231.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\a2246b9f-ab6d-466a-924d-015fd16f33ee.jpg",
+      "PackagePath": "staticwebassets\\images\\a2246b9f-ab6d-466a-924d-015fd16f33ee.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\a2bd4a0d-cf45-425e-9edd-a2ed5b6f1a04.jpg",
+      "PackagePath": "staticwebassets\\images\\a2bd4a0d-cf45-425e-9edd-a2ed5b6f1a04.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\b2990319-6940-44ba-a5a6-bdcc8031a92f.jpg",
+      "PackagePath": "staticwebassets\\images\\b2990319-6940-44ba-a5a6-bdcc8031a92f.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\b2f1f71a-06ee-470d-8d88-18f50d86692d.jpg",
+      "PackagePath": "staticwebassets\\images\\b2f1f71a-06ee-470d-8d88-18f50d86692d.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\b722187d-51a0-40b8-8789-4c65cd433e8b.jpg",
+      "PackagePath": "staticwebassets\\images\\b722187d-51a0-40b8-8789-4c65cd433e8b.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\c75b1271-2cb2-47a0-b5c9-298e537ba9fc.jpg",
+      "PackagePath": "staticwebassets\\images\\c75b1271-2cb2-47a0-b5c9-298e537ba9fc.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\cbfcdffc-6a03-46b6-ad19-c49b22e6af82.jpg",
+      "PackagePath": "staticwebassets\\images\\cbfcdffc-6a03-46b6-ad19-c49b22e6af82.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\d65ab8f1-e6f9-46d0-a7ea-b3a4a7dbfba8.jpg",
+      "PackagePath": "staticwebassets\\images\\d65ab8f1-e6f9-46d0-a7ea-b3a4a7dbfba8.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\d7feaec9-c3b7-4fba-a7a0-1158ffb786d4.jpg",
+      "PackagePath": "staticwebassets\\images\\d7feaec9-c3b7-4fba-a7a0-1158ffb786d4.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\de2282a4-103f-4933-9f8d-be4b83c617ed.jpg",
+      "PackagePath": "staticwebassets\\images\\de2282a4-103f-4933-9f8d-be4b83c617ed.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\e16d34a2-fd0b-4bc1-9fb7-14afd4d313e3.jpg",
+      "PackagePath": "staticwebassets\\images\\e16d34a2-fd0b-4bc1-9fb7-14afd4d313e3.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\f1ae4676-6c55-4145-8697-2907df499960.jpg",
+      "PackagePath": "staticwebassets\\images\\f1ae4676-6c55-4145-8697-2907df499960.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\f79c5dce-c74d-42f7-afb4-d1f7875907cd.jpg",
+      "PackagePath": "staticwebassets\\images\\f79c5dce-c74d-42f7-afb4-d1f7875907cd.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\ac.png",
+      "PackagePath": "staticwebassets\\images\\icon\\ac.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\instagram.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\instagram.svg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\instagram1.png",
+      "PackagePath": "staticwebassets\\images\\icon\\instagram1.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\instagram1.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\instagram1.svg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\mesto.png",
+      "PackagePath": "staticwebassets\\images\\icon\\mesto.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\razvitie.png",
+      "PackagePath": "staticwebassets\\images\\icon\\razvitie.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\serdtse.png",
+      "PackagePath": "staticwebassets\\images\\icon\\serdtse.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\tantsy.png",
+      "PackagePath": "staticwebassets\\images\\icon\\tantsy.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\telegram.png",
+      "PackagePath": "staticwebassets\\images\\icon\\telegram.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\telegram.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\telegram.svg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\tsvetovoe_koleso.png",
+      "PackagePath": "staticwebassets\\images\\icon\\tsvetovoe_koleso.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\vremya.png",
+      "PackagePath": "staticwebassets\\images\\icon\\vremya.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\youtube.png",
+      "PackagePath": "staticwebassets\\images\\icon\\youtube.png"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\icon\\youtube.svg",
+      "PackagePath": "staticwebassets\\images\\icon\\youtube.svg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\71678a413df984956f73216743452ee0.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\71678a413df984956f73216743452ee0.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\87932f2269c15a3765bc24ef37fdaaf3.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\87932f2269c15a3765bc24ef37fdaaf3.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\9a9e7a36dbc078ebb9153d63e82ef12d.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\9a9e7a36dbc078ebb9153d63e82ef12d.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\cart.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\cart.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\d2fbf3c02f7827e7a0d0a678adef47d3.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\d2fbf3c02f7827e7a0d0a678adef47d3.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\glavnoe.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\glavnoe.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\h1.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\h1.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\h2.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\h2.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\h3.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\h3.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\image\\h4.jpg",
+      "PackagePath": "staticwebassets\\images\\image\\h4.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\rooms\\hall1.jpg",
+      "PackagePath": "staticwebassets\\images\\rooms\\hall1.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\rooms\\hall2.jpg",
+      "PackagePath": "staticwebassets\\images\\rooms\\hall2.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\rooms\\hall3.jpg",
+      "PackagePath": "staticwebassets\\images\\rooms\\hall3.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\rooms\\hall4.jpg",
+      "PackagePath": "staticwebassets\\images\\rooms\\hall4.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teacher1.jpg",
+      "PackagePath": "staticwebassets\\images\\teacher1.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teacher2.jpg",
+      "PackagePath": "staticwebassets\\images\\teacher2.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teachers\\teacher1.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\teacher1.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teachers\\teacher2.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\teacher2.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teachers\\teacher3.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\teacher3.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teachers\\teacher4.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\teacher4.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teachers\\teacher5.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\teacher5.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teachers\\teacher6.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\teacher6.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\images\\teachers\\teacher7.jpg",
+      "PackagePath": "staticwebassets\\images\\teachers\\teacher7.jpg"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\js\\record.js",
+      "PackagePath": "staticwebassets\\js\\record.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\ДИПЛОМ\\step_up\\step_up\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.step_up.props",
+      "PackagePath": "build\\step_up.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.step_up.props",
+      "PackagePath": "buildMultiTargeting\\step_up.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.step_up.props",
+      "PackagePath": "buildTransitive\\step_up.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.step_up.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.step_up.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

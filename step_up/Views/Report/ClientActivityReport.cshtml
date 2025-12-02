@@ -1,0 +1,81 @@
+﻿@model step_up.ViewModels.ClientActivityReportViewModel
+
+@{
+    ViewData["Title"] = "Отчет по активности клиентов";
+    Layout = "~/Views/Shared/_Layout.Admin.cshtml";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<!-- Фильтр по уровню активности -->
+<form method="get" asp-action="Index" asp-controller="ClientActivityReport" class="filter-form">
+    <label for="activityLevel" class="filter-label">Уровень активности:</label>
+
+    <select name="activityLevel" id="activityLevel" class="filter-select">
+        <option value="">Все</option>
+        @foreach (var level in Model.ActivityLevels)
+        {
+            <option value="@level" selected="@(Model.ActivityLevel == level ? "selected" : "")">
+                @level
+            </option>
+        }
+    </select>
+
+    <button type="submit" class="btn btn-primary">Применить фильтр</button>
+</form>
+
+
+
+
+
+<!-- Таблица отчетов -->
+@if (Model.UserActivityReports.Any())
+{
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Дата регистрации</th>
+                <th>Посещено</th>
+                <th>Последнее посещение</th>
+                <th>Уровень активности</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.UserActivityReports.Count; i++)
+            {
+                var report = Model.UserActivityReports[i];
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>
+                        @(string.IsNullOrWhiteSpace(report.FullName?.Trim()) ? report.Email : report.FullName)
+                    </td>
+                    <td>@report.RegistrationDate.ToShortDateString()</td>
+                    <td>@report.TotalAttendances</td>
+                    <td>@(report.LastAttendanceDate?.ToShortDateString() ?? "-")</td>
+                    <td>@report.ActivityLevel</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <p>Нет данных для отображения.</p>
+}
+
+<!-- Ссылки на экспорт в Excel и PDF -->
+<div class="d-flex gap-2 mt-3">
+    <form asp-action="ExportToExcel" asp-controller="ClientActivityReport" method="get">
+        <input type="hidden" name="activityLevel" value="@Model.ActivityLevel" />
+        <button type="submit" class="btn btn-success">Экспорт в Excel</button>
+    </form>
+
+  @*   <form asp-action="ExportToPdf" asp-controller="ClientActivityReport" method="get">
+        <input type="hidden" name="activityLevel" value="@Model.ActivityLevel" />
+        <button type="submit" class="btn btn-danger">Экспорт в PDF</button>
+    </form> *@
+</div>
+

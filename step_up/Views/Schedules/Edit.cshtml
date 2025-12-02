@@ -1,0 +1,83 @@
+﻿@model step_up.Models.Schedules
+
+@{
+    ViewData["Title"] = "Редактировать расписание";
+    Layout = "~/Views/Shared/_Layout.Admin.cshtml";
+}
+
+<h1>Редактировать расписание</h1>
+
+<h4>Schedules</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+
+            <!-- Instructor Dropdown -->
+            <div class="form-group">
+                <label asp-for="InstructorId" class="control-label"></label>
+                <select asp-for="InstructorId" class="form-control" asp-items="@(new SelectList(ViewBag.Instructors, "Id", "FullName", Model.InstructorId))"></select>
+                <span asp-validation-for="InstructorId" class="text-danger"></span>
+            </div>
+
+            <!-- Hall Dropdown -->
+            <div class="form-group">
+                <label asp-for="HallId" class="control-label"></label>
+                <select asp-for="HallId" class="form-control" asp-items="@(new SelectList(ViewBag.Halls, "Id", "Name", Model.HallId))"></select>
+                <span asp-validation-for="HallId" class="text-danger"></span>
+            </div>
+
+            <!-- DayOfWeek Dropdown -->
+            <div class="form-group">
+                <label asp-for="DayOfWeek" class="control-label">День недели</label>
+                <select asp-for="DayOfWeek" class="form-control" asp-items="ViewBag.DaysOfWeek">
+                    <option value="">-- Выберите день недели --</option>
+                </select>
+                <span asp-validation-for="DayOfWeek" class="text-danger"></span>
+            </div>
+
+            <!-- StartTime Input -->
+            <div class="form-group">
+                <label asp-for="StartTime" class="control-label">Время начала</label>
+                <input asp-for="StartTime" type="time" class="form-control" step="60" />
+                <span asp-validation-for="StartTime" class="text-danger"></span>
+            </div>
+
+            <!-- Duration Input -->
+            <div class="form-group">
+                <label asp-for="Duration" class="control-label"></label>
+                <input asp-for="Duration" class="form-control" />
+                <span asp-validation-for="Duration" class="text-danger"></span>
+            </div>
+
+            <!-- MaxParticipants Input -->
+            <div class="form-group">
+                <label asp-for="MaxParticipants" class="control-label"></label>
+                <input asp-for="MaxParticipants" class="form-control" />
+                <span asp-validation-for="MaxParticipants" class="text-danger"></span>
+            </div>
+
+            <!-- Level Dropdown -->
+            <div class="form-group">
+                <label class="control-label">Уровень подготовки</label>
+                <select name="LevelId" class="form-control" asp-items="@(new SelectList(ViewBag.Levels, "Id", "Name", ViewBag.SelectedLevelId))">
+                    <option value="">-- Выберите уровень --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Сохранить" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Назад к списку</a>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

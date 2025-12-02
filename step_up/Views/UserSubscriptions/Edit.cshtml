@@ -1,0 +1,39 @@
+﻿@model step_up.Models.UserSubscription
+
+@{
+    ViewData["Title"] = "Редактировать абонемент";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="UserId" class="control-label">Пользователь</label>
+        <select asp-for="UserId" class="form-control" asp-items="ViewBag.Users"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SubscriptionId" class="control-label">Тип абонемента</label>
+        <select asp-for="SubscriptionId" class="form-control" asp-items="ViewBag.Subscriptions"></select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="PurchaseDate" class="control-label"></label>
+        <input asp-for="PurchaseDate" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ExpiryDate" class="control-label"></label>
+        <input asp-for="ExpiryDate" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ClassesRemaining" class="control-label"></label>
+        <input asp-for="ClassesRemaining" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Сохранить</button>
+    <a asp-action="Index" class="btn btn-secondary">Назад</a>
+</form>

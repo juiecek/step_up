@@ -1,0 +1,9 @@
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.csproj.AssemblyReference.cache
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.GeneratedMSBuildEditorConfig.editorconfig
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.AssemblyInfoInputs.cache
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.AssemblyInfo.cs
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.csproj.CoreCompileInputs.cache
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.MvcApplicationPartsAssemblyInfo.cs
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.MvcApplicationPartsAssemblyInfo.cache
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.RazorAssemblyInfo.cache
+C:\ДИПЛОМ\step_up\obj\Debug\net8.0\step_up.RazorAssemblyInfo.cs

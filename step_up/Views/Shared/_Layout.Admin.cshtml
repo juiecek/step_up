@@ -1,0 +1,44 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Админ | Step Up</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header class="admin-header bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h2 class="m-0">Step up | Панель администратора</h2>
+            <nav>
+                @* <a asp-controller="Admin" asp-action="Index" class="text-white me-3">Главная</a>
+                <a asp-controller="Admin" asp-action="Users" class="text-white me-3">Пользователи</a> *@
+                <a asp-controller="Instructors" asp-action="Index" class="text-white me-3">Преподаватели</a>
+                <a asp-controller="Schedules" asp-action="Index" class="text-white me-3">Расписание</a>
+                <a asp-controller="Halls" asp-action="Index" class="text-white me-3">Залы</a>
+                <a asp-controller="Subscriptions" asp-action="Index" class="text-white me-3">Цены</a>
+                <a asp-controller="UserSubscriptions" asp-action="Index" class="text-white me-3">Абонементы</a>
+                <a asp-controller="Registrations" asp-action="Index" class="text-white me-3">Записи</a>
+                <a asp-controller="Report" asp-action="InstructorReport" class="text-white me-3">Отчеты по преподавателям</a>
+                <a asp-controller="Home" asp-action="GroupFillingReport" class="text-white me-3">Отчеты по группам</a>
+                <a asp-controller="Home" asp-action="ClientActivityReport" class="text-white me-3">Отчеты по активости клиентов</a>
+                <form method="post" asp-area="Identity" asp-page="/Account/Logout" class="d-inline">
+                    <button type="submit" class="btn btn-danger btn-sm">Выйти</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-4">
+        @RenderBody()
+    </main>
+
+    @RenderSection("Scripts", required: false)
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js"></script>
+</body>
+</html>

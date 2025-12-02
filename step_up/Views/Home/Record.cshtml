@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Запись";
+}
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groove-танцуй с душой</title>
+    <link rel="stylesheet" href="~/css/record.css">
+</head>
+<body>
+    <div id="modal-overlay" class="modal-overlay">
+        <div id="modal" class="modal">
+            <button id="close-modal" class="modal-close">×</button>
+            <h2>Записаться на занятие</h2>
+            <form method="post">
+                <input class="input" type="text" name="Name" placeholder="Ваше имя" required />
+                <input class="input" type="email" name="Email" placeholder="Ваш почта" required />
+                <select class="input" name="Direction" required>
+                    <option value="" disabled selected>Выберите направление</option>
+                    <option value="Hip Hop">Hip Hop</option>
+                    <option value="Jazz Funk">Jazz Funk</option>
+                    <option value="Girly Choreo">Girly Choreo</option>
+                    <option value="Contemporary">Contemporary</option>
+                    <option value="Strip">Strip</option>
+                </select>
+                <button class="button" type="submit">Записаться</button>
+            </form>
+        </div>
+    </div>
+
+      <script src="~/js/record.js"></script>
+
+</body>
+
+<</html>

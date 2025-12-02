@@ -1,0 +1,62 @@
+﻿@model step_up.Models.ViewModels.InstructorsWithReviewsViewModel
+
+@{
+    ViewData["Title"] = "Преподаватели";
+    Layout = "~/Views/Shared/_Layout.Admin.cshtml";
+}
+
+<h1>Преподаватели</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Instructors.First().FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instructors.First().Description)
+            </th>
+            <th>
+                Photo
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instructors.First().Phone)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Instructors)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.Photo))
+                    {
+                        <img src="@item.Photo" alt="@item.FullName" width="100" height="100" />
+                    }
+                    else
+                    {
+                        <span>No Photo</span>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

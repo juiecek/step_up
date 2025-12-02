@@ -1,0 +1,61 @@
+﻿
+
+
+/* Основной контейнер */
+div {
+    margin-top: 20px; /* Немного отступа сверху для всего контента */
+    font-family: Arial, sans-serif;
+}
+
+/* Заголовки */
+h1, h3, h4 {
+    color: #333;
+}
+
+/* Выравнивание для элементов формы */
+dl.row {
+    background-color: #f9f9f9; /* Легкий фон для списка */
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки dt */
+dt {
+    font-weight: bold;
+    color: #5D5A88;
+}
+
+/* Описание dd */
+dd {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+/* Кнопки */
+input[type="submit"] {
+    background-color: #e74c3c; /* Красная кнопка Delete */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+    input[type="submit"]:hover {
+        background-color: #c0392b;
+    }
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

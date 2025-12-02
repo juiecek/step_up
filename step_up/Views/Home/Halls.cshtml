@@ -1,0 +1,35 @@
+﻿@model IEnumerable<step_up.Models.Halls>
+
+@{
+    ViewData["Title"] = "Наши залы";
+}
+
+<h1 class="mb-4">Наши залы</h1>
+
+@foreach (var hall in Model)
+{
+    <div class="card mb-4 p-3 shadow-sm">
+        <div class="d-flex align-items-start">
+            <div class="me-4">
+                @if (!string.IsNullOrEmpty(hall.Photo))
+                {
+                    <img src="@hall.Photo" alt="Фото зала" style="width: 200px; height: 200px; object-fit: cover;" class="rounded" />
+                }
+                else
+                {
+                    <div style="width: 200px; height: 200px;" class="bg-light d-flex align-items-center justify-content-center rounded">
+                        <span class="text-muted">Фото отсутствует</span>
+                    </div>
+                }
+            </div>
+            <div>
+                <h4>@hall.Name</h4>
+                <p class="mb-2"><strong>Описание:</strong> @hall.Description</p>
+                <p class="mb-1"><strong>Вместимость:</strong> @hall.Capacity чел.</p>
+               
+
+
+            </div>
+        </div>
+    </div>
+}

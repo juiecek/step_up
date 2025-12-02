@@ -1,0 +1,83 @@
+﻿/* Стили для модального окна */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECE7F5;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-overlay {
+    display: none; /* По умолчанию скрыто */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #E0DFEB;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+    .modal h2 {
+        font-size: 40px;
+        color: #5D5A88;
+        margin-bottom: 20px;
+    }
+
+    .modal input,
+    .modal select,
+    .modal button {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid white;
+        border-radius: 50px;
+        font-size: 18px;
+    }
+
+        .modal input:focus,
+        .modal select:focus {
+            border-color: #7E57C2;
+            outline: none;
+        }
+
+    .modal button {
+        background-color: #7E57C2;
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        .modal button:hover {
+            background-color: #5E35B1;
+        }
+
+/* Кнопка закрытия модального окна */
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #5D5A88;
+}
+
+    .modal-close:hover {
+        color: #7E57C2;
+    }

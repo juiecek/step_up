@@ -1,0 +1,205 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #5D5A88;
+}
+
+.header {
+    text-align: center;
+    
+    color: #5D5A88;
+    background-color: #E0DFEB;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+.logoa {
+    color: #5D5A88;
+    text-decoration: none;
+}
+
+.nav-links a {
+    font-weight: 500;
+    color: #5D5A88;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+    .social-links img {
+        width: 20px;
+        height: 20px;
+    }
+
+
+.icon {
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    display: block;
+}
+
+.icon-container {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.about {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+    .about h1 {
+        text-align: left;
+        color: #5D5A88;
+        margin-bottom:10px;
+        padding:20px;
+        font-size:64px;
+    }
+.about-content {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 40px 0;
+}
+    .text-block{
+        flex:1 1 60%;
+        order:1;
+        padding:40px;
+    }
+    .text-block p{
+        margin-bottom:15px;
+        font-size:18px;
+    }
+.image-block {
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    order: 2;
+    align-items: flex-start;
+
+}
+    .image-block img {
+        width: 420px;
+        height: 440px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+
+.contacts {
+    text-align: left;
+  
+    padding:20px;
+    border-radius:10px;
+}
+    .contacts h2 {
+        color: #5D5A88;
+        margin-bottom:20px;
+        font-size:40px;
+    }
+.contacts-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+.contacts .info {
+    flex: 1 1 40%;
+   
+}
+ 
+    .contacts .social-icons{
+        display:flex;
+        gap:10px;
+        margin-top:10px;
+    }
+
+.contacts .map img {
+    /* width: 100%;
+    border-radius: 10px;
+    flex: 0 1 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    order: 2;
+    align-items: flex-start;*/
+    flex: 0 1 60%; /* Карта занимает оставшееся пространство */
+    max-width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+    .contacts .social-icons img{
+        width:30px;
+        height:30px;
+    }
+
+
+.footer {
+    background-color: #222;
+    color: #5D5A88;
+    padding: 30px 0;
+    text-align: center;
+}
+
+    .footer h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .footer p {
+        margin-bottom: 10px;
+    }
+
+    .footer a {
+        color: #5D5A88;
+        text-decoration: underline;
+    }
+
+        .footer a:hover {
+            text-decoration: none;
+        }
+
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-wrap: wrap; /* Разрешаем перенос строк на узких экранах */
+    }
+
+    .text-block, .image-block {
+        flex: 1 1 100%; /* Элементы занимают всю ширину */
+        order: initial; /* Сброс порядка */
+    }
+
+    .image-block {
+        flex-direction: column; /* Картинки становятся вертикальными */
+    }
+
+        .image-block img {
+            width: 100%;
+        }
+}

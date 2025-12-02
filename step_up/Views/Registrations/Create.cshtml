@@ -1,0 +1,102 @@
+﻿@model step_up.Models.Registration
+
+@{
+    ViewData["Title"] = "Запись на занятие";
+}
+
+<h1>Запись на занятие</h1>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ScheduleId" class="control-label">Выберите занятие</label>
+                <select id="scheduleSelect" asp-for="ScheduleId" class="form-control" asp-items="ViewBag.ScheduleId"></select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Date" class="control-label">Дата занятия</label>
+                <select id="dateSelect" asp-for="Date" class="form-control">
+                    <option value="">Сначала выберите занятие</option>
+                </select>
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+
+            <div id="availableSpots" class="mb-2 text-info"></div>
+
+            <div class="form-group">
+                <label asp-for="UserSubscriptionId" class="control-label">Абонемент</label>
+                <select asp-for="UserSubscriptionId" class="form-control" asp-items="ViewBag.UserSubscriptionId"></select>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Записаться" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Назад к списку</a>
+</div>
+
+@section Scripts {
+    <script>
+        const scheduleSelect = document.getElementById('scheduleSelect');
+        const dateSelect = document.getElementById('dateSelect');
+        const availableSpotsDiv = document.getElementById('availableSpots');
+
+        scheduleSelect.addEventListener('change', function () {
+            const scheduleId = this.value;
+            dateSelect.innerHTML = '';
+            availableSpotsDiv.textContent = '';
+
+            if (!scheduleId) return;
+
+            fetch(`/Registrations/GetScheduleDates?scheduleId=${scheduleId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.dates.length > 0) {
+                        const defaultOption = document.createElement('option');
+                        defaultOption.text = "Выберите дату";
+                        defaultOption.value = "";
+                        dateSelect.appendChild(defaultOption);
+
+                        data.dates.forEach(date => {
+                            const option = document.createElement('option');
+                            option.value = date;
+                            option.text = new Date(date).toLocaleDateString('ru-RU', {
+                                weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+                            });
+                            dateSelect.appendChild(option);
+                        });
+                    } else {
+                        const option = document.createElement('option');
+                        option.text = "Нет доступных дат";
+                        dateSelect.appendChild(option);
+                    }
+                });
+        });
+
+        dateSelect.addEventListener('change', function () {
+            const scheduleId = scheduleSelect.value;
+            const date = this.value;
+            if (!date) {
+                availableSpotsDiv.textContent = '';
+                return;
+            }
+
+            fetch(`/Registrations/GetAvailableSpots?scheduleId=${scheduleId}&date=${date}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        availableSpotsDiv.textContent = `Осталось мест: ${data.available}`;
+                    } else {
+                        availableSpotsDiv.textContent = data.message;
+                    }
+                });
+        });
+    </script>
+}

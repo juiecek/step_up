@@ -1,0 +1,79 @@
+﻿@model step_up.Models.Schedules
+
+@{
+    ViewData["Title"] = "Создание расписания";
+    Layout = "~/Views/Shared/_Layout.Admin.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Schedules</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                <label asp-for="HallId"></label>
+                <select asp-for="HallId" class="form-control" asp-items="@(new SelectList(ViewBag.Halls, "Id", "Name"))">
+                    <option value="">-- Выберите зал --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="InstructorId"></label>
+                <select asp-for="InstructorId" class="form-control" asp-items="@(new SelectList(ViewBag.Instructors, "Id", "FullName"))">
+                    <option value="">-- Выберите инструктора --</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="levelId">Уровень подготовки</label>
+                <select class="form-control" name="levelId">
+                    <option value="">-- Выберите уровень --</option>
+                    @foreach (var level in (List<step_up.Models.Level>)ViewBag.Levels)
+                    {
+                        <option value="@level.Id">@level.Name</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="DayOfWeek" class="control-label">День недели</label>
+                <select asp-for="DayOfWeek" class="form-control" asp-items="ViewBag.DaysOfWeek">
+                    <option value="">-- Выберите день недели --</option>
+                </select>
+                <span asp-validation-for="DayOfWeek" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="StartTime"></label>
+                <input asp-for="StartTime" type="time" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Duration"></label>
+                <input asp-for="Duration" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MaxParticipants"></label>
+                <input asp-for="MaxParticipants" class="form-control" />
+            </div>
+
+            <button type="submit" class="btn btn-primary">Создать</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

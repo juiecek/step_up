@@ -1,0 +1,242 @@
+﻿@model List<step_up.Models.Subscription>
+
+@{
+    ViewData["Title"] = "Step Up-танцуй с душой";
+}
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Up-танцуй с душой</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@* изменить карточки с ценами *@
+<body>
+ @*    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">Groove</div>
+                <nav class="nav-links">
+                    <a href="#">Направления</a>
+                    <a href="#">Расписание</a>
+                    <a href="#">Педагоги</a>
+                    <a href="#">Цена</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Аренда залов</a>
+                    <a href="#">Контакты</a>
+                </nav>
+                <div class="social-links">
+                    <a href="#" class="icon-container"><img src="icon/telegram.png" alt="Telegram" class="icon"></a>
+                    <a href="#" class="icon-container"><img src="icon/instagram1.png" alt="Instagram" class="icon"></a>
+                    <a href="#" class="icon-container"><img src="icon/youtube.png" alt="YouTube" class="icon"></a>
+                </div>
+            </div>
+        </div>
+    </header> *@
+
+    <div class="header-content">
+        <div class="text-container">
+            <h1>Танцуй с душой</h1>
+            <p>
+                Танец — это язык души, который помогает выразить себя и обрести свободу в движении. Присоединяйтесь,
+                чтобы найти свой ритм и вдохновение вместе с нами.
+            </p>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Registrations" asp-action="Create" class="btn-primary">Записаться</a>
+            }
+            else
+            {
+                <a asp-page="/Account/Login" asp-area="Identity" class="btn-primary">Войти и записаться</a>
+
+            }
+
+        </div>
+        <div class="image-container">
+            <img src="images/image/glavnoe.jpg" alt="Главное изображение" class="header-image">
+        </div>
+    </div>
+
+    <section class="who-choose-us">
+        <h2>Почему выбирают нас</h2>
+        <p id="groove-paragraph">
+            GROOVE — это огромный танцевальный центр в Минске.<br>
+            Десятки учеников, которые стали профессиональными танцорами и хореографами.
+        </p>
+        <div class="features-grid">
+            <div class="feature-item">
+                <h3> <img src="images/icon/tantsy.png" class="icon">Профессионализм</h3>
+                <p>Опытные преподаватели помогут раскрыть ваш танцевальный потенциал и достичь результата.</p>
+            </div>
+
+            <div class="feature-item">
+                <h3> <img src="images/icon/mesto.png" class="icon">Удобство</h3>
+                <p>Мы находимся в центре города, что делает посещение студии простым и доступным.</p>
+            </div>
+            <div class="feature-item">
+                <h3><img src="images/icon/tsvetovoe_koleso.png" class="icon">Разнообразие</h3>
+                <p>Предлагаем множество стилей, чтобы каждый мог найти своё направление.</p>
+            </div>
+            <div class="feature-item">
+                <h3><img src="images/icon/serdtse.png" class="icon">Атмосфера</h3>
+                <p>У нас теплая и дружеская обстановка, в которой каждый чувствует себя комфортно.</p>
+            </div>
+            <div class="feature-item">
+                <h3><img src="images/icon/vremya.png" class="icon">Гибкость</h3>
+                <p>Удобное расписание позволяет выбрать подходящее время для занятий.</p>
+            </div>
+            <div class="feature-item">
+                <h3> <img src="images/icon/razvitie.png" class="icon">Развитие</h3>
+                <p>Мы поможем развить уверенность, выразительность и чувство ритма.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="price" class="pricing">
+        <div class="container">
+            <h2>Наши абонементы</h2>
+
+            <div class="pricing-grid">
+                @foreach (var subscription in Model)
+                {
+                    <div class="pricing-card">
+                        <h3>@subscription.Name</h3>
+                        <p class="pricing-p">
+                            @if (subscription.NumberOfClasses == 0)
+                            {
+                                <text>Безлимитный абонемент</text>
+                            }
+                            else
+                            {
+                                <text>@subscription.NumberOfClasses занятий</text>
+                            }
+                        </p>
+                        <p class="price">@subscription.Price.ToString("0.##") BYN</p>
+                    </div>
+                }
+            </div>
+
+
+          @*   <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Разовое занятие</h3>
+                    <p class="pricing-p"> Оплачивается до занятий</p>
+                    <p class="price">25BYN</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>3 занятия</h3>
+                    <p class ="pricing-p">Действует на любые направления и группы </p>
+                    <p class="price">70BYN</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>8 занятий</h3>
+                    <p class="pricing-p">Дейсвует на любые направленя и группы  </p>
+                    <p class="price">130BYN</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>12 занятий</h3>
+                    <p class="pricing-p">Действует на любые направления и группы</p>
+                    <p class="price">180BYN</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>16 занятий</h3>
+                    <p class ="pricing-p">Действует на любые направления и группы</p>
+                    <p class="price">240BYN</p>
+                </div>
+                <div class="pricing-card">
+                    <h3>Безлимитный</h3>
+                    <p class="pricing-p">В течение 31 дня ожно посещать неогрониченное количество занятий</p>
+                    <p class="price">300BYN</p>
+                </div>
+            </div> *@
+        </div>
+    </section>
+
+    <section class="teachers">
+        <div class="container">
+            <h2>Направления</h2>
+            <div class="teachers-grid">
+                <div class="teacher">
+
+                    <img src="images/teachers/teacher1.jpg" alt="Преподаватель 1">
+                    
+                </div>
+                <div class="teacher">
+                    <img src="images/teachers/teacher2.jpg" alt="Преподаватель 2">
+                  
+                </div>
+                <div class="teacher">
+                    <img src="images/teachers/teacher3.jpg" alt="Преподаватель 3">
+                    
+                </div>
+                <div class="teacher">
+                    <img src="images/teachers/teacher4.jpg" alt="Преподаватель 1">
+
+                </div>
+                <div class="teacher">
+                    <img src="images/teachers/teacher5.jpg" alt="Преподаватель 2">
+
+                </div>
+                <div class="teacher">
+                    <img src="images/teachers/teacher6.jpg" alt="Преподаватель 3">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="trial-class">
+        <div class="container">
+            <h2>Запишись на пробное занятие</h2>
+            <p>Пробное занятие – 10 рублей, а при покупке абонемента в день пробного первого занятия – БЕСПЛАТНО</p>
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Registrations" asp-action="Create" class="btn-primary">Записаться</a>
+            }
+            else
+            {
+                <a asp-page="/Account/Login" asp-area="Identity" class="btn-primary">Войти и записаться</a>
+
+            }
+        </div>
+    </section>
+
+    <section id="contacts" class="contacts">
+        <h2> Наши контакты </h2>
+        <div class="contacts-content">
+            <div class="info">
+                <p><strong>Телефон:</strong> +375 29 999-99-99</p>
+                <p><strong>Email:</strong> stepup@gmail.com</p>
+                <p><strong>Адрес:</strong> г. Минск, пр. Машерова 17/4, 6 этаж (пом 603)</p>
+                <div class="social-icons">
+                    <a href="#" aria-label="Telegram"><img src="/images/icon/telegram.png" alt="Telegram"></a>
+                    <a href="#" aria-label="Viber"><img src="/images/icon/instagram1.png" alt="Viber"></a>
+                    <a href="#" aria-label="WhatsApp"><img src="/images/icon/youtube.png" alt="WhatsApp"></a>
+                </div>
+            </div>
+            <div class="map">
+                <img src="/images/image/cart.jpg" alt="Карта местоположения" />
+            </div>
+        </div>
+    </section>
+
+  @*   <footer class="footer">
+        <div class="container">
+            <h2>Наши контакты</h2>
+            <p>Телефон: +375 29 123 45 67</p>
+            <p>Адрес: Минск, ул. Танцевальная, 7</p>
+        </div>
+    </footer> *@
+</body>
+
+</html>

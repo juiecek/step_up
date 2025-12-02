@@ -1,0 +1,45 @@
+﻿@model IEnumerable<step_up.Models.Schedules>
+
+@{
+    ViewData["Title"] = "Расписание";
+    Layout = "~/Views/Shared/_Layout.Admin.cshtml";
+}
+
+<h1>Расписание</h1>
+
+<p>
+    <a asp-action="Create">Создать новое</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().Instructor.FullName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Hall.Name)</th>
+            <th>День недели</th>
+            <th>Время начала</th>
+            <th>@Html.DisplayNameFor(model => model.First().Duration)</th>
+            <th>@Html.DisplayNameFor(model => model.First().MaxParticipants)</th>
+            <th>Уровень</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Instructor?.FullName</td>
+                <td>@item.Hall?.Name</td>
+                <td>@ViewBag.RussianDayNames[(DayOfWeek)item.DayOfWeek]</td>
+                <td>@item.StartTime.ToString(@"hh\:mm")</td>
+                <td>@item.Duration</td>
+                <td>@item.MaxParticipants</td>
+                <td>@item.ScheduleDanceStyles.FirstOrDefault()?.Level?.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

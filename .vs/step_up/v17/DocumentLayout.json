@@ -1,0 +1,2462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\schedules\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\schedules\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\schedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\schedulescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\dancestylereviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\dancestylereviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\report\\clientactivityreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\report\\clientactivityreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\report\\groupfillingreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\report\\groupfillingreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\report\\instructorreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\report\\instructorreport.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.Registration.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.DanceStyleReviews.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\teachers.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\teachers.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\teachedit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\teachedit.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\schedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\teachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\teachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\dancestylereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\dancestylereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\dancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\dancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\scheduledancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\scheduledancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\dancestyles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\dancestyles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\viewmodels\\schedulewithreviewsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\viewmodels\\schedulewithreviewsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\viewmodels\\dancestylewithlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\viewmodels\\dancestylewithlevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\viewmodels\\instructorswithreviewsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\viewmodels\\instructorswithreviewsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\instructorreviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\instructorreviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\clientactivityreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\clientactivityreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\viewmodels\\clientactivityreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\viewmodels\\clientactivityreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\viewmodels\\clientactivityreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\viewmodels\\clientactivityreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\groupfillingreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\groupfillingreportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\viewmodels\\groupfillingreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\viewmodels\\groupfillingreportviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\viewmodels\\groupfillingreportitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\viewmodels\\groupfillingreportitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\registrations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\registrations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\schedules\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\schedules\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\level.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.Levels.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\history.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\registrationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\account\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\account\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\account\\profile.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\subscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\usersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\usersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\usersubscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\usersubscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\g0jvm1kf..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\subscriptionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\hallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\hallscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\migrations\\20250408094913_addsubscriptiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\migrations\\20250408094913_addsubscriptiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\shared\\_layout.admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\shared\\_layout.admin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\shared\\_layout.client.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\shared\\_layout.client.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\usersubscriptions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\usersubscriptions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\subscriptions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\subscriptions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\schedules\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\schedules\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\registrations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\registrations\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\levels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\levels\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructorreviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructorreviews\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\halls\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\halls\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\dancestyles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\dancestyles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\dancestyles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\dancestyles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\dancestyles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\dancestyles\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\halls.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\halls.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\halls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\halls\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\registrations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\registrations\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\schedules\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\schedules\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\services\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\halls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\halls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\instructors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\instructorreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\instructorreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\models\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\models\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\registrations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\registrations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\record.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\record.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\schedules\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\schedules\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\usersubscriptions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\usersubscriptions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\subscriptions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\subscriptions\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\levels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\levels\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructorreviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructorreviews\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\dancestyles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\dancestyles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\dancestyles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\dancestyles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\usersubscriptions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\usersubscriptions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\usersubscriptions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\usersubscriptions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\usersubscriptions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\usersubscriptions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\subscriptions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\subscriptions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\subscriptions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\subscriptions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\subscriptions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\subscriptions\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\registrations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\registrations\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\levels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\levels\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\levels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\levels\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\levels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\levels\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructorreviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructorreviews\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructorreviews\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructorreviews\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\instructorreviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\instructorreviews\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\halls\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\halls\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\halls\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\halls\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\halls\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\halls\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.8.1\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.7.0\\Readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\schedule.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\schedule.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\record.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\record.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\migrations\\20250421213532_removeinstructordancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\migrations\\20250421213532_removeinstructordancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\levelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\levelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\migrations\\20250420144509_fixcascadedeletebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\migrations\\20250420144509_fixcascadedeletebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\migrations\\20250416170059_removelevelfromdancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\migrations\\20250416170059_removelevelfromdancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\migrations\\20250414122723_addreviewstables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\migrations\\20250414122723_addreviewstables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\migrations\\20250410174139_addusersubscriptiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\migrations\\20250410174139_addusersubscriptiontable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\shedule.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\shedule.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\areas\\identity\\pages\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\controllers\\dancestylescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\controllers\\dancestylescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\step_up.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\step_up.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250316135626_FixPendingModelChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:step_up\\Migrations\\20250316135626_FixPendingModelChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250316134539_RemoveDuplicateEmailField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:step_up\\Migrations\\20250316134539_RemoveDuplicateEmailField.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\teachcreate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\teachcreate.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\teachdelete.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\teachdelete.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\adminteachers.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\adminteachers.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\history.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\history.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\glavn.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\glavn.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\wwwroot\\css\\record.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\wwwroot\\css\\record.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\history.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\history.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\views\\home\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\views\\home\\index.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\AdminInstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:step_up\\Views\\Home\\AdminInstructor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\migrations\\20250421140402_addleveltoscheduledancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\migrations\\20250421140402_addleveltoscheduledancestyle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\services\\attendancebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\services\\attendancebackgroundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|c:\\\u0434\u0438\u043F\u043B\u043E\u043C\\step_up\\step_up\\migrations\\20250516124113_alterdaytodayofweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB13F830-8D71-4DB9-A101-63836FBAC512}|step_up\\step_up.csproj|solutionrelative:step_up\\migrations\\20250516124113_alterdaytodayofweek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Teachers.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Teachers.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\Teachers.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Teachers.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\Teachers.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAG8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T12:39:46.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DanceStyleReview.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\DanceStyleReview.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\DanceStyleReview.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\DanceStyleReview.cs",
+              "RelativeToolTip": "step_up\\Models\\DanceStyleReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:49:20.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Schedules\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Schedules\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:52:14.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Schedule.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Schedule.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\Schedule.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Schedule.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\Schedule.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAH8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T13:19:33.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\appsettings.json",
+              "RelativeDocumentMoniker": "step_up\\appsettings.json",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\appsettings.json",
+              "RelativeToolTip": "step_up\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-09T11:29:52.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InstructorReport.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Report\\InstructorReport.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Report\\InstructorReport.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Report\\InstructorReport.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Report\\InstructorReport.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwFcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-06T09:37:41.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DanceStyleReviewsController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\DanceStyleReviewsController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\DanceStyleReviewsController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\DanceStyleReviewsController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\DanceStyleReviewsController.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAgwFcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T18:55:54.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SchedulesController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\SchedulesController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\SchedulesController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\SchedulesController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\SchedulesController.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAkwGEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:00:12.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAE4CAAAAAAAAAAAcwG0CAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T15:42:43.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "teachers.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\teachers.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\teachers.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\teachers.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\teachers.css",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAcwO8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T15:50:39.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.AspNetUsers.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.AspNetUsers.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-10-03T10:04:59.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GroupFillingReport.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Report\\GroupFillingReport.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Report\\GroupFillingReport.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Report\\GroupFillingReport.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Report\\GroupFillingReport.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAUwHEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-08T17:38:13.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientActivityReport.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Report\\ClientActivityReport.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Report\\ClientActivityReport.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Report\\ClientActivityReport.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Report\\ClientActivityReport.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-10T16:22:14.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "teachEdit.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\teachEdit.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\teachEdit.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\teachEdit.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\teachEdit.css",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAQwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T17:06:00.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.Registration.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.Registration.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.Registration.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-23T22:20:43.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.DanceStyleReviews.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.DanceStyleReviews.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.DanceStyleReviews.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-23T22:12:45.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAYwIEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T19:31:24.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DanceStyle.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\DanceStyle.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\DanceStyle.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\DanceStyle.cs",
+              "RelativeToolTip": "step_up\\Models\\DanceStyle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T15:13:17.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ScheduleDanceStyle.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ScheduleDanceStyle.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ScheduleDanceStyle.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ScheduleDanceStyle.cs",
+              "RelativeToolTip": "step_up\\Models\\ScheduleDanceStyle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:04:59.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DanceStyles.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\DanceStyles.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\DanceStyles.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\DanceStyles.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\DanceStyles.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T21:33:57.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Schedules.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Schedules.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\Schedules.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Schedules.cs",
+              "RelativeToolTip": "step_up\\Models\\Schedules.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:52:54.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ScheduleWithReviewsViewModel.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\ScheduleWithReviewsViewModel.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ViewModels\\ScheduleWithReviewsViewModel.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\ScheduleWithReviewsViewModel.cs",
+              "RelativeToolTip": "step_up\\Models\\ViewModels\\ScheduleWithReviewsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:18:16.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DanceStyleWithLevel.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\DanceStyleWithLevel.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ViewModels\\DanceStyleWithLevel.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\DanceStyleWithLevel.cs",
+              "RelativeToolTip": "step_up\\Models\\ViewModels\\DanceStyleWithLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:34:47.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InstructorsWithReviewsViewModel.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\InstructorsWithReviewsViewModel.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ViewModels\\InstructorsWithReviewsViewModel.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\InstructorsWithReviewsViewModel.cs",
+              "RelativeToolTip": "step_up\\Models\\ViewModels\\InstructorsWithReviewsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T19:17:57.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InstructorReviewsController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\InstructorReviewsController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\InstructorReviewsController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\InstructorReviewsController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\InstructorReviewsController.cs",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAIwLMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T15:10:09.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\ReportController.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAUwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:07:26.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InstructorsController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\InstructorsController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\InstructorsController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\InstructorsController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\InstructorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAANEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:18:23.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClientActivityReportController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\ClientActivityReportController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\ClientActivityReportController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\ClientActivityReportController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\ClientActivityReportController.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAUwNkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:13:28.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ClientActivityReportViewModel.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\ClientActivityReportViewModel.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ViewModels\\ClientActivityReportViewModel.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\ClientActivityReportViewModel.cs",
+              "RelativeToolTip": "step_up\\Models\\ViewModels\\ClientActivityReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:16:30.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ClientActivityReport.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\ClientActivityReport.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ViewModels\\ClientActivityReport.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\ClientActivityReport.cs",
+              "RelativeToolTip": "step_up\\Models\\ViewModels\\ClientActivityReport.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:48:54.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GroupFillingReportController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\GroupFillingReportController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\GroupFillingReportController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\GroupFillingReportController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\GroupFillingReportController.cs",
+              "ViewState": "AgIAACIBAAAAAAAAAAAUwFEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T15:56:31.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GroupFillingReportViewModel.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\GroupFillingReportViewModel.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ViewModels\\GroupFillingReportViewModel.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\GroupFillingReportViewModel.cs",
+              "RelativeToolTip": "step_up\\Models\\ViewModels\\GroupFillingReportViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T17:32:47.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GroupFillingReportItem.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\GroupFillingReportItem.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ViewModels\\GroupFillingReportItem.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ViewModels\\GroupFillingReportItem.cs",
+              "RelativeToolTip": "step_up\\Models\\ViewModels\\GroupFillingReportItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T17:32:21.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Registrations\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Registrations\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwDIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-29T15:04:02.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Schedules\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Schedules\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:52:10.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "step_up\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-10T10:17:47.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Level.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Level.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\Level.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Level.cs",
+              "RelativeToolTip": "step_up\\Models\\Level.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T18:26:39.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "dbo.Levels.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.Levels.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/step_up/True/SqlTable/dbo.Levels.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-10T12:56:23.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "History.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\History.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\History.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\History.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\History.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T17:23:33.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserSubscription.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\UserSubscription.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\UserSubscription.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\UserSubscription.cs",
+              "RelativeToolTip": "step_up\\Models\\UserSubscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T17:08:42.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Subscription.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Subscription.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\Subscription.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Subscription.cs",
+              "RelativeToolTip": "step_up\\Models\\Subscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:44:36.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RegistrationsController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\RegistrationsController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\RegistrationsController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\RegistrationsController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\RegistrationsController.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAAAIwDMBAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T12:26:11.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Profile.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\Account\\Profile.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Profile.cshtml",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\Account\\Profile.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwD0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T14:05:57.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Profile.cshtml.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Profile.cshtml.cs",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\Account\\Profile.cshtml.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Profile.cshtml.cs",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\Account\\Profile.cshtml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAswFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:06:59.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UserSubscriptionsController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\UserSubscriptionsController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\UserSubscriptionsController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\UserSubscriptionsController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\UserSubscriptionsController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwE8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T18:12:58.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "g0jvm1kf..sql",
+              "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\g0jvm1kf..sql",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Admin\\AppData\\Local\\Temp\\g0jvm1kf..sql",
+              "ToolTip": "C:\\Users\\Admin\\AppData\\Local\\Temp\\g0jvm1kf..sql",
+              "RelativeToolTip": "..\\..\\Users\\Admin\\AppData\\Local\\Temp\\g0jvm1kf..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-06-04T20:18:48.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswGYAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T14:14:18.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:25:24.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Program.cs",
+              "RelativeDocumentMoniker": "step_up\\Program.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Program.cs",
+              "RelativeToolTip": "step_up\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:56:29.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "step_up\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T13:54:09.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "step_up\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T13:56:21.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAIwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T21:43:31.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\User.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\User.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\User.cs",
+              "RelativeToolTip": "step_up\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:47:29.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "SubscriptionsController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\SubscriptionsController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\SubscriptionsController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\SubscriptionsController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\SubscriptionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T15:44:23.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "HallsController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\HallsController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\HallsController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\HallsController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\HallsController.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAIwK8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-24T22:00:10.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "20250408094913_AddSubscriptionTable.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250408094913_AddSubscriptionTable.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250408094913_AddSubscriptionTable.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250408094913_AddSubscriptionTable.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250408094913_AddSubscriptionTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T14:00:28.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T15:01:18.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "_Layout.Admin.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_Layout.Admin.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Shared\\_Layout.Admin.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_Layout.Admin.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Shared\\_Layout.Admin.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T15:21:06.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "_Layout.Client.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_Layout.Client.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Shared\\_Layout.Client.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_Layout.Client.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Shared\\_Layout.Client.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAiwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T15:19:21.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 152,
+              "Title": "AttendanceBackgroundService.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Services\\AttendanceBackgroundService.cs",
+              "RelativeDocumentMoniker": "step_up\\Services\\AttendanceBackgroundService.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Services\\AttendanceBackgroundService.cs",
+              "RelativeToolTip": "step_up\\Services\\AttendanceBackgroundService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:50:57.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Registration.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Registration.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\Registration.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Registration.cs",
+              "RelativeToolTip": "step_up\\Models\\Registration.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:56:18.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\UserSubscriptions\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\UserSubscriptions\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:23:35.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Subscriptions\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Subscriptions\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:22:53.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Schedules\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Schedules\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:52:00.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Registrations\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Registrations\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:21:00.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Levels\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Levels\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:20:19.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Instructors\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Instructors\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:51:35.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\InstructorReviews\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\InstructorReviews\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T21:54:49.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Halls\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Halls\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:50:51.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\DanceStyles\\Delete.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Delete.cshtml",
+              "RelativeToolTip": "step_up\\Views\\DanceStyles\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:51:08.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\DanceStyles\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\DanceStyles\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:51:12.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\DanceStyles\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\DanceStyles\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:51:03.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T23:28:07.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T23:27:10.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T23:27:59.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAAALgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T13:54:29.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "Halls.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Halls.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\Halls.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Halls.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\Halls.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T09:24:55.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Halls\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Halls\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T14:10:15.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Registrations\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Registrations\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-24T12:31:17.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Schedules\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Schedules\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:10:41.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 153,
+              "Title": "20250516124113_AlterDayToDayOfWeek.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250516124113_AlterDayToDayOfWeek.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250516124113_AlterDayToDayOfWeek.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250516124113_AlterDayToDayOfWeek.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250516124113_AlterDayToDayOfWeek.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAiwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:41:17.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "EmailSender.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Services\\EmailSender.cs",
+              "RelativeDocumentMoniker": "step_up\\Services\\EmailSender.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Services\\EmailSender.cs",
+              "RelativeToolTip": "step_up\\Services\\EmailSender.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwCwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:25:01.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Halls.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Halls.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\Halls.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Halls.cs",
+              "RelativeToolTip": "step_up\\Models\\Halls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:37:47.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "step_up\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:27:19.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\LoginViewModel.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "step_up\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:26:15.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Instructors.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Instructors.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\Instructors.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Instructors.cs",
+              "RelativeToolTip": "step_up\\Models\\Instructors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:04:53.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "InstructorReview.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\InstructorReview.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\InstructorReview.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\InstructorReview.cs",
+              "RelativeToolTip": "step_up\\Models\\InstructorReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T11:48:50.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "step_up\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T14:54:03.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Bookings.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Bookings.cs",
+              "RelativeDocumentMoniker": "step_up\\Models\\Bookings.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Models\\Bookings.cs",
+              "RelativeToolTip": "step_up\\Models\\Bookings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T11:48:21.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Registrations\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Registrations\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:21:11.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Record.cshtml.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Record.cshtml.cs",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\Record.cshtml.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Record.cshtml.cs",
+              "RelativeToolTip": "step_up\\Views\\Home\\Record.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T13:35:06.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Schedules\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Schedules\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Schedules\\Details.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAWwCIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:52:05.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\UserSubscriptions\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\UserSubscriptions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T11:50:47.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Subscriptions\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Subscriptions\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T12:36:47.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Levels\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Levels\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-30T12:36:30.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Instructors\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Instructors\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T22:18:30.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\InstructorReviews\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\InstructorReviews\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T21:54:54.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\DanceStyles\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\DanceStyles\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:51:17.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\DanceStyles\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\DanceStyles\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\DanceStyles\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-09T12:51:22.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\UserSubscriptions\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\UserSubscriptions\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T11:51:47.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\UserSubscriptions\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\UserSubscriptions\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:23:43.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Subscriptions\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Subscriptions\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:23:08.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\UserSubscriptions\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\UserSubscriptions\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\UserSubscriptions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T23:49:42.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Subscriptions\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Subscriptions\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:23:01.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Subscriptions\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Subscriptions\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Subscriptions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:22:42.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Registrations\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Registrations\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Registrations\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:21:22.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Levels\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Levels\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:20:36.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Levels\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Levels\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:20:28.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Levels\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Levels\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Levels\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T17:20:12.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Instructors\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Instructors\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T22:02:53.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Instructors\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Instructors\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T22:02:54.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Instructors\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Instructors\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Instructors\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T21:42:25.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\InstructorReviews\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\InstructorReviews\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T21:54:52.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\InstructorReviews\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\InstructorReviews\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T21:54:50.785Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\InstructorReviews\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\InstructorReviews\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\InstructorReviews\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T21:54:48.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Edit.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Halls\\Edit.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Edit.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Halls\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T22:42:50.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Details.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Halls\\Details.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Details.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Halls\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T09:19:57.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Create.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Halls\\Create.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Halls\\Create.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Halls\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-05T14:36:39.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.7.0\\Readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.7.0\\Readme.txt",
+              "ToolTip": "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.7.0\\Readme.txt",
+              "RelativeToolTip": "..\\..\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.7.0\\Readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-07T13:14:19.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.8.1\\Readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.8.1\\Readme.txt",
+              "ToolTip": "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.8.1\\Readme.txt",
+              "RelativeToolTip": "..\\..\\Users\\Admin\\.nuget\\packages\\bouncycastle\\1.8.1\\Readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-07T13:34:13.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAEBVwCQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T09:14:20.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "schedule.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\schedule.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\schedule.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\schedule.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\schedule.css",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAUwA4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-04-09T18:56:11.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "Record.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Record.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\Record.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Record.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\Record.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-03T17:15:04.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-10T13:55:40.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "20250421213532_RemoveInstructorDanceStyle.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250421213532_RemoveInstructorDanceStyle.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250421213532_RemoveInstructorDanceStyle.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250421213532_RemoveInstructorDanceStyle.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250421213532_RemoveInstructorDanceStyle.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T21:35:38.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 123,
+              "Title": "LevelsController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\LevelsController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\LevelsController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\LevelsController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\LevelsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:08:09.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 151,
+              "Title": "20250421140402_AddLevelToScheduleDanceStyle.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250421140402_AddLevelToScheduleDanceStyle.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250421140402_AddLevelToScheduleDanceStyle.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250421140402_AddLevelToScheduleDanceStyle.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250421140402_AddLevelToScheduleDanceStyle.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:04:02.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 124,
+              "Title": "20250420144509_FixCascadeDeleteBehavior.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250420144509_FixCascadeDeleteBehavior.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250420144509_FixCascadeDeleteBehavior.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250420144509_FixCascadeDeleteBehavior.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250420144509_FixCascadeDeleteBehavior.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-20T15:02:02.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 125,
+              "Title": "20250416170059_RemoveLevelFromDanceStyle.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250416170059_RemoveLevelFromDanceStyle.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250416170059_RemoveLevelFromDanceStyle.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250416170059_RemoveLevelFromDanceStyle.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250416170059_RemoveLevelFromDanceStyle.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T17:01:17.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 127,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T16:20:36.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 126,
+              "Title": "step_up.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs",
+              "RelativeToolTip": "step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T14:44:39.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 128,
+              "Title": "20250414122723_AddReviewsTables.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250414122723_AddReviewsTables.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250414122723_AddReviewsTables.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250414122723_AddReviewsTables.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250414122723_AddReviewsTables.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-14T12:27:29.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 129,
+              "Title": "20250410174139_AddUserSubscriptionTable.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250410174139_AddUserSubscriptionTable.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250410174139_AddUserSubscriptionTable.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250410174139_AddUserSubscriptionTable.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250410174139_AddUserSubscriptionTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T17:41:39.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 130,
+              "Title": "shedule.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\shedule.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\shedule.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\shedule.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\shedule.css",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAswPIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-02T13:19:09.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 131,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-24T16:20:39.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 132,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T23:46:55.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 133,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T23:46:59.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 134,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "step_up\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T23:46:52.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 135,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-28T23:19:26.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 136,
+              "Title": "DanceStylesController.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\DanceStylesController.cs",
+              "RelativeDocumentMoniker": "step_up\\Controllers\\DanceStylesController.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Controllers\\DanceStylesController.cs",
+              "RelativeToolTip": "step_up\\Controllers\\DanceStylesController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T11:50:07.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 137,
+              "Title": "step_up.csproj",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\step_up.csproj",
+              "RelativeDocumentMoniker": "step_up\\step_up.csproj",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\step_up.csproj",
+              "RelativeToolTip": "step_up\\step_up.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-05T11:39:21.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
+              "Title": "20250316135626_FixPendingModelChanges.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250316135626_FixPendingModelChanges.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250316135626_FixPendingModelChanges.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250316135626_FixPendingModelChanges.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250316135626_FixPendingModelChanges.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:56:27.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 139,
+              "Title": "20250316134539_RemoveDuplicateEmailField.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250316134539_RemoveDuplicateEmailField.cs",
+              "RelativeDocumentMoniker": "step_up\\Migrations\\20250316134539_RemoveDuplicateEmailField.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Migrations\\20250316134539_RemoveDuplicateEmailField.cs",
+              "RelativeToolTip": "step_up\\Migrations\\20250316134539_RemoveDuplicateEmailField.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:45:39.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 140,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "step_up\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "step_up\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-28T23:21:51.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 141,
+              "Title": "step_up.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\step_up.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T22:59:32.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 150,
+              "Title": "AdminInstructor.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\AdminInstructor.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\AdminInstructor.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\AdminInstructor.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\AdminInstructor.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-23T12:58:00.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 142,
+              "Title": "teachCreate.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\teachCreate.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\teachCreate.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\teachCreate.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\teachCreate.css",
+              "ViewState": "AgIAAGwAAAAAAAAAAFB2wJsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T16:21:40.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 143,
+              "Title": "teachDelete.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\teachDelete.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\teachDelete.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\teachDelete.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\teachDelete.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T17:00:43.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 144,
+              "Title": "adminTeachers.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\adminTeachers.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\adminTeachers.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\adminTeachers.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\adminTeachers.css",
+              "ViewState": "AgIAACEAAAAAAAAAAFB2wEMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-10T10:39:57.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 145,
+              "Title": "history.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\history.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\history.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\history.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\history.css",
+              "ViewState": "AgIAACEAAAAAAAAAAFB2wEcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T15:50:05.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 146,
+              "Title": "glavn.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\glavn.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\glavn.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\glavn.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\glavn.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAOBvwB0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T15:25:36.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 147,
+              "Title": "record.css",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\record.css",
+              "RelativeDocumentMoniker": "step_up\\wwwroot\\css\\record.css",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\wwwroot\\css\\record.css",
+              "RelativeToolTip": "step_up\\wwwroot\\css\\record.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-22T15:56:21.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 148,
+              "Title": "History.cshtml.cs",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\History.cshtml.cs",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\History.cshtml.cs",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\History.cshtml.cs",
+              "RelativeToolTip": "step_up\\Views\\Home\\History.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:35:53.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 149,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "step_up\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\\u0414\u0418\u041F\u041B\u041E\u041C\\step_up\\step_up\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "step_up\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T17:37:13.293Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

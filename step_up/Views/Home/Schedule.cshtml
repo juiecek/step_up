@@ -1,0 +1,270 @@
+﻿@model IEnumerable<IGrouping<TimeSpan, step_up.Models.Schedules>>
+
+@{
+    ViewData["Title"] = "Расписание";
+    var selectedStyle = ViewData["SelectedStyle"] as string;
+    var selectedLevel = ViewData["SelectedLevel"] as string;
+    var reviews = (List<step_up.Models.DanceStyleReview>)ViewBag.Reviews;
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groove-танцуй с душой</title>
+    <link rel="stylesheet" href="~/css/schedule.css" />
+</head>
+<body>
+    <main>
+        <section class="schedule">
+            <div class="container">
+                <h1>Расписание</h1>
+
+
+
+                <!-- Форма фильтрации по стилям и уровням -->
+                <form method="get" asp-action="Schedule" class="filter-form">
+                    <select name="selectedStyle">
+                        <option value="">Все стили</option>
+                        @foreach (var item in ViewData["DanceStyleFilter"] as SelectList)
+                        {
+                            <option value="@item.Value" selected="@(item.Value == selectedStyle ? "selected" : null)">
+                                @item.Text
+                            </option>
+                        }
+                    </select>
+
+                    <select name="selectedLevel">
+                        <option value="">Все уровни</option>
+                        @foreach (var item in ViewData["LevelFilter"] as SelectList)
+                        {
+                            <option value="@item.Value" selected="@(item.Value == selectedLevel ? "selected" : null)">
+                                @item.Text
+                            </option>
+                        }
+                    </select>
+
+                    <button type="submit">Фильтровать</button>
+                </form>
+
+                <!-- Таблица расписания -->
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Время</th>
+                            <th>Понедельник</th>
+                            <th>Вторник</th>
+                            <th>Среда</th>
+                            <th>Четверг</th>
+                            <th>Пятница</th>
+                            <th>Суббота</th>
+                            <th>Воскресенье</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var group in Model)
+                        {
+                            <tr>
+                                <td>@group.Key.ToString(@"hh\:mm")</td>
+                                @for (int i = 1; i <= 7; i++) // День недели с понедельника (1) по воскресенье (7)
+                                {
+                                    var day = (DayOfWeek)(i % 7); // DayOfWeek enum: Sunday = 0, Monday = 1, ...
+                                    <td class="dance-style">
+                                        @foreach (var schedule in group.Where(s => s.DayOfWeek == day))
+                                        {
+                                            @foreach (var sds in schedule.ScheduleDanceStyles)
+                                            {
+                                                <span class="dance-entry" data-style="@sds.DanceStyle.Name">@sds.DanceStyle.Name</span>
+                                                <br />
+                                                <span class="dance-level">@sds.Level?.Name</span>
+                                                <br />
+                                            }
+                                            <span class="dance-instructor">@schedule.Instructor.FullName</span>
+                                        }
+                                    </td>
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="trial-class">
+            <div class="container">
+                <h2>Запишись на пробное занятие</h2>
+                <p>Пробное занятие – 10 рублей, а при покупке абонемента в день пробного первого занятия – БЕСПЛАТНО</p>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a asp-controller="Registrations" asp-action="Create" class="btn-primary">Записаться</a>
+                }
+                else
+                {
+                    <a asp-page="/Account/Login" asp-area="Identity" class="btn-primary">Войти и записаться</a>
+
+                }
+            </div>
+        </section>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="review-form">
+                <h3>Оставить отзыв</h3>
+                <form id="reviewForm" asp-controller="DanceStyleReviews" asp-action="Create" method="post">
+                    <label for="ScheduleId">Занятие:</label>
+                    <select name="ScheduleId" id="ScheduleId" asp-items="@(ViewBag.Schedules as SelectList)"></select>
+
+                    <label for="Rating">Оценка (1-5):</label>
+                    <input type="number" name="Rating" id="Rating" min="1" max="5" required />
+
+                    <label for="Comment">Комментарий:</label>
+                    <textarea name="Comment" id="Comment"></textarea>
+
+                    <button type="submit">Отправить отзыв</button>
+                    <div id="reviewMessage"></div>
+                </form>
+            </div>
+            
+        }
+        else
+        {
+            <p class="login-to-review">
+                <em>
+                    <a href="/Identity/Account/Login">Войдите</a>, чтобы оставить отзыв.
+                </em>
+            </p>
+        }
+
+        <div class="reviews-section">
+            <h3>Отзывы</h3>
+            @foreach (var review in reviews)
+            {
+                var schedule = review.Schedule;
+                var styles = schedule?.ScheduleDanceStyles?.Select(sds => $"{sds.DanceStyle?.Name} ({sds.Level?.Name})");
+                var instructor = schedule?.Instructor?.FullName;
+                var day = schedule?.DayOfWeek;
+                var time = schedule?.StartTime;
+
+                <div class="review-item">
+                    <b>@review.User.UserName</b> (@review.CreatedAt.ToShortDateString()):
+                    <br />
+                    <span>Оценка: @review.Rating / 5</span><br />
+                    <span>Комментарий: @review.Comment</span><br />
+
+                    @if (styles != null)
+                    {
+                        foreach (var s in styles)
+                        {
+                            <span>@s</span>
+
+                            <br />
+                        }
+                    }
+
+                    @if (instructor != null)
+                    {
+                        <span>Преподаватель: @instructor</span>
+
+                        <br />
+                    }
+                </div>
+            }
+
+          
+
+
+        <section class="contacts">
+            <h2>Наши контакты</h2>
+            <div class="contacts-content">
+                <div class="info">
+                    <p><strong>Телефон:</strong> +375 29 999-99-99</p>
+                    <p><strong>Email:</strong> stepup@gmail.com</p>
+                    <p><strong>Адрес:</strong> г. Минск, пр. Машерова 17/4, 6 этаж (пом 603)</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Telegram"><img src="/images/icon/telegram.png" alt="Telegram"></a>
+                        <a href="#" aria-label="Viber"><img src="/images/icon/instagram1.png" alt="Viber"></a>
+                        <a href="#" aria-label="WhatsApp"><img src="/images/icon/youtube.png" alt="WhatsApp"></a>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="/images/image/cart.jpg" alt="Карта местоположения" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        function filterSchedule(style) {
+            const allCells = document.querySelectorAll('.dance-style');
+
+            allCells.forEach(cell => {
+                const entries = cell.querySelectorAll('.dance-entry');
+                let hasMatch = false;
+
+                entries.forEach(entry => {
+                    const entryStyle = entry.getAttribute('data-style').toLowerCase();
+                    const match = style === 'ALL' || entryStyle === style.toLowerCase();
+                    entry.style.display = match ? '' : 'none';
+                    if (match) hasMatch = true;
+                });
+
+                const levelSpans = cell.querySelectorAll('.dance-level, .dance-instructor');
+                levelSpans.forEach(span => {
+                    span.style.display = hasMatch ? '' : 'none';
+                });
+            });
+
+            const rows = document.querySelectorAll('.schedule-table tbody tr');
+            rows.forEach(row => {
+                const visible = Array.from(row.querySelectorAll('.dance-entry')).some(e => e.style.display !== 'none');
+                row.style.display = visible ? '' : 'none';
+            });
+        }
+
+               
+        document.getElementById('reviewForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const form = e.target;
+            const formData = new FormData(form);
+
+            try {
+                const response = await fetch('/DanceStyleReviews/Create', {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                const result = await response.json();
+                const messageBlock = document.getElementById('reviewMessage');
+
+                       if (response.ok && result.success) {
+            messageBlock.textContent = result.message;
+            messageBlock.style.color = 'green';
+            form.reset();
+
+            const newReviewBlock = document.createElement('div');
+            newReviewBlock.innerHTML = `
+                <b>Вы</b> (${new Date().toLocaleDateString()}):
+                <br />
+                Оценка: ${formData.get("Rating")} / 5
+                <br />
+                Комментарий: ${formData.get("Comment")}
+                <hr />
+            `;
+
+            form.insertAdjacentElement('beforebegin', newReviewBlock);
+        }
+        else {
+                    messageBlock.textContent = result.message || 'Произошла ошибка при отправке отзыва.';
+                    messageBlock.style.color = 'red';
+                }
+            } catch (error) {
+                document.getElementById('reviewMessage').textContent = 'Ошибка при отправке запроса.';
+            }
+        });
+ 
+
+    </script>
+</body>
+</html>

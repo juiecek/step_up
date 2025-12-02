@@ -1,0 +1,158 @@
+﻿@model IEnumerable<step_up.Models.Instructors>
+@{
+    ViewData["Title"] = "Преподаватели";
+    var reviews = (List<step_up.Models.InstructorReview>)ViewBag.Reviews;
+}
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groove-танцуй с душой</title>
+    <link rel="stylesheet" asp-href-include="~/css/teachers.css" asp-append-version="true" />
+
+</head>
+<body>
+    <main>
+        <h1>Наши преподаватели</h1>
+       @*  <div class="teacher">
+            <img src="~/images/teachers/teacher1.jpg" alt="Алена" />
+            <div class="info">
+                <h2>Алена</h2>
+                <p>Наш преподаватель Hip Hop, которая влюблена в уличную культуру и с удовольствием делится своей энергией с учениками. С ней каждый урок — это настоящее шоу, наполненное драйвом и ритмом. Алена помогает студентам раскрыть свой стиль и научиться чувствовать музыку, объединяя их с культурой танца, где нет границ для самовыражения.</p>
+
+            </div>
+        </div> *@
+        @*   <div class="teacher">
+            <img src="~/images/teachers/teacher2.jpg" alt="Алена" />
+            <div class="info">
+                <h2>Мария</h2>
+                <p>Эксперт по Jazz Funk, она придаёт своим урокам энергию и артистичность. Мария учит студентов привносить в танец страсть и харизму, фокусируясь на синхронности движений и экспрессии. Она вдохновляет учеников стать более уверенными и показать свою уникальность через движения, которые совмещают джазовую технику и современные ритмы. </p>
+
+            </div>
+        </div>
+        <div class="teacher">
+            <img src="~/images/teachers/teacher3.jpg" alt="Алена" />
+            <div class="info">
+                <h2>Екатерина</h2>
+                <p>Наш преподаватель Girly Choreo, известная своим умением создавать чувственные и утонченные танцевальные комбинации. Она помогает студентам раскрыть свою женственность и уверенность в каждом движении. На занятиях с Екатериной ученики учатся соединять элегантность и выразительность, делая акцент на индивидуальном стиле и грации.</p>
+
+            </div>
+        </div>
+        <div class="teacher">
+            <img src="~/images/teachers/teacher4.jpg" alt="Алена" />
+            <div class="info">
+                <h2>Ольга</h2>
+                <p>Мастер Contemporary, который привносит в занятия глубину и эмоциональную вовлеченность. Она помогает ученикам научиться передавать свои эмоции через танец, соединяя движения с внутренними переживаниями. Ольга создает атмосферу, где каждый может раскрыться и найти свой уникальный подход к этому свободному и выразительному стилю. </p>
+
+            </div>
+        </div>
+        <div class="teacher">
+            <img src="~/images/teachers/teacher5.jpg" alt="Алена" />
+            <div class="info">
+                <h2>Анна</h2>
+                <p>Преподаватель Strip, который помогает студентам обрести уверенность и свободу в каждом движении. Ее занятия сосредоточены на грации, пластике и плавности, давая каждому возможность почувствовать свою силу и привлекательность. Анна уделяет внимание как технике, так и раскрытию внутренней энергии, помогая ученикам почувствовать себя более раскрепощенными. </p>
+
+            </div>
+        </div>
+        <div class="teacher">
+            <img src="~/images/teachers/teacher6.jpg" alt="Алена" />
+            <div class="info">
+                <h2>Елена</h2>
+                <p>Тренер по Hip Hop и Jazz Funk, который помогает студентам почувствовать свободу и силу в движениях. Его занятия по Hip Hop наполнены ритмом и энергией, а уроки Contemporary фокусируются на плавности и эмоциональности. Иван создает на занятиях пространство, где каждый может проявить себя и обрести уверенность.</p>
+
+            </div>
+      </div>  *@
+
+
+        @foreach (var instructor in Model)
+        {
+            <div class="teacher">
+                <img src="@instructor.Photo" alt="@instructor.FullName" />
+                <div class="info">
+                    <h2>@instructor.FullName</h2>
+                    <p>@instructor.Description</p>
+                </div>
+            </div>
+        }
+        @if (User.Identity.IsAuthenticated)
+        {
+            <section class="add-review">
+                <h2>Оставить отзыв</h2>
+                <form asp-controller="InstructorReviews" asp-action="CreateFromMainPage" method="post">
+                    <label for="instructorId">Преподаватель:</label>
+                    <select name="instructorId" required>
+                        @foreach (var instructor in Model)
+                        {
+                            <option value="@instructor.Id">@instructor.FullName</option>
+                        }
+                    </select>
+
+                    <label for="rating">Оценка (1–5):</label>
+                    <input type="number" name="rating" min="1" max="5" required />
+
+                    <label for="comment">Комментарий:</label>
+                    <textarea name="comment" rows="3" required></textarea>
+
+                    <button type="submit">Отправить отзыв</button>
+                </form>
+            </section>
+
+        }
+        else
+        {
+            <p class="login-to-review">
+                <em>
+                    <a href="/Identity/Account/Login">Войдите</a>, чтобы оставить отзыв.
+                </em>
+            </p>
+        }
+
+        <section class="all-reviews">
+            <h2>Отзывы о преподавателях</h2>
+
+            @if (reviews.Any())
+            {
+                <ul class="reviews-list">
+                    @foreach (var review in reviews)
+                    {
+                        <li>
+                            <strong>@review.User.UserName</strong> о <em>@review.Instructor.FullName</em>:
+                            <br />
+                            <span>Оценка: @review.Rating ★</span>
+                            <p>@review.Comment</p>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p><em>Пока нет отзывов.</em></p>
+            }
+        </section>
+
+
+        <section class="contacts">
+            <h2> Наши контакты </h2>
+            <div class="contacts-content">
+                <div class="info">
+                    <p><strong>Телефон:</strong> +375 29 999-99-99</p>
+                    <p><strong>Email:</strong> stepup@gmail.com</p>
+                    <p><strong>Адрес:</strong> г. Минск, пр. Машерова 17/4, 6 этаж (пом 603)</p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Telegram"><img src="/images/icon/telegram.png" alt="Telegram"></a>
+                        <a href="#" aria-label="Viber"><img src="/images/icon/instagram1.png" alt="Viber"></a>
+                        <a href="#" aria-label="WhatsApp"><img src="/images/icon/youtube.png" alt="WhatsApp"></a>
+                    </div>
+                </div>
+                <div class="map">
+                    <img src="/images/image/cart.jpg" alt="Карта местоположения" />
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

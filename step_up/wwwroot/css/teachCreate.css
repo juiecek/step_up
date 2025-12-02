@@ -1,0 +1,164 @@
+﻿/* Общие стили для хедера */
+.header {
+    text-align: center;
+    background-color: #E0DFEB;
+    padding: 10px 0; /* Уменьшаем отступы сверху и снизу */
+    margin: 0;
+}
+
+h1 {
+    font-size: 36px;
+    color: #5D5A88;
+    margin: 0;
+}
+
+/* Навигационная панель */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Располагаем элементы по краям */
+    align-items: center; /* Центрируем по вертикали */
+    padding: 0 20px; /* Добавляем внутренние отступы по бокам */
+    flex-wrap: wrap; /* Если место закончится, элементы перейдут на следующую строку */
+}
+
+/* Логотип */
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: #5D5A88;
+    margin-top:-20px;
+}
+
+/* Навигационные ссылки */
+.nav-links {
+    display: flex;
+    gap: 15px; /* Уменьшаем расстояние между пунктами */
+    margin-top: -10px; /* Поднимаем меню вверх */
+}
+
+    .nav-links a {
+        font-weight: 500;
+        color: #5D5A88;
+        text-decoration: none;
+    }
+
+/* Если используете изображения для социальных ссылок */
+.social-links {
+    display: flex;
+    gap: 15px; /* Расстояние между иконками */
+    margin-top: -20px;
+}
+
+    .social-links img {
+        width: 20px;
+        height: 20px;
+        margin-top: -3px;
+    }
+
+/* Поддержка мобильных устройств */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* На мобильных устройствах элементы будут выстраиваться вертикально */
+        align-items: center; /* Центрируем элементы по вертикали */
+    }
+
+    .nav-links {
+        margin-top: 10px;
+        gap: 15px; /* Уменьшаем расстояние между пунктами на мобильных */
+    }
+}
+
+
+
+
+
+/* Общие стили для формы */
+h1, h4 {
+    color: #5D5A88;
+    text-align: center;
+}
+
+hr {
+    border: 1px solid #5D5A88;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #5D5A88;
+}
+
+input.form-control, select.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #8984BF;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+    input.form-control:focus, select.form-control:focus {
+        border-color: #5D5A88;
+        outline: none;
+    }
+
+.text-danger {
+    font-size: 14px;
+    color: #FF6347;
+}
+
+/* Стили для кнопки */
+.btn-primary {
+    background-color: #5D5A88;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+    .btn-primary:hover {
+        background-color: #3C3A58;
+    }
+
+/* Стили для ссылки "Back to List" */
+a {
+    color: #5D5A88;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+/* Стили для формы с колонками */
+.col-md-4 {
+    width: 50%;
+    background-color: #E0DFEB;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        width: 90%;
+    }
+}

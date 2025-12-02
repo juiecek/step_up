@@ -1,0 +1,120 @@
+﻿@model step_up.Models.ViewModels.GroupFillingReportViewModel
+
+@{
+    ViewData["Title"] = "Отчет по наполняемости групп";
+    Layout = "~/Views/Shared/_Layout.Admin.cshtml";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Форма фильтрации -->
+<form method="get" class="filter-form">
+    <label for="danceStyleId" class="filter-label">Тип занятия:</label>
+    <select id="danceStyleId" name="danceStyleId" class="filter-select">
+        <option value="">Все</option>
+        @foreach (var style in Model.DanceStyles)
+        {
+            <option value="@style.Id" selected="@(Model.SelectedDanceStyleId == style.Id ? "selected" : "")">
+                @style.Name
+            </option>
+        }
+    </select>
+
+    <label for="levelId" class="filter-label">Уровень подготовки:</label>
+    <select id="levelId" name="levelId" class="filter-select">
+        <option value="">Все</option>
+        @foreach (var level in Model.Levels)
+        {
+            <option value="@level.Id" selected="@(Model.SelectedLevelId == level.Id ? "selected" : "")">
+                @level.Name
+            </option>
+        }
+    </select>
+
+    <label for="instructorId" class="filter-label">Преподаватель:</label>
+    <select id="instructorId" name="instructorId" class="filter-select">
+        <option value="">Все</option>
+        @foreach (var instructor in Model.Instructors)
+        {
+            <option value="@instructor.Id" selected="@(Model.SelectedInstructorId == instructor.Id ? "selected" : "")">
+                @instructor.FullName
+            </option>
+        }
+    </select>
+
+    <label for="dateFrom" class="filter-label">Дата с:</label>
+    <input type="date" id="dateFrom" name="dateFrom" class="filter-input"
+           value="@(Model.DateFrom?.ToString("yyyy-MM-dd") ?? "")" required />
+
+    <label for="dateTo" class="filter-label">Дата по:</label>
+    <input type="date" id="dateTo" name="dateTo" class="filter-input"
+           value="@(Model.DateTo?.ToString("yyyy-MM-dd") ?? "")" required />
+
+    <button type="submit" class="btn btn-primary">Применить фильтр</button>
+</form>
+
+<!-- Отображаем таблицу ТОЛЬКО если обе даты выбраны -->
+@if (Model.DateFrom.HasValue && Model.DateTo.HasValue)
+{
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Группа<br />(День, Время (Дата))</th>
+                <th>Тип занятия</th>
+                <th>Уровень подготовки</th>
+                <th>Макс. участников</th>
+                <th>Тек. количество</th>
+                <th>% Наполнения</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Groups.Any())
+            {
+                foreach (var group in Model.Groups)
+                {
+                    <tr>
+                        <td>@group.GroupName</td>
+                        <td>@group.DanceStyleName</td>
+                        <td>@group.LevelName</td>
+                        <td>@group.MaxCapacity</td>
+                        <td>@group.CurrentCount</td>
+                        <td>@group.FillingPercent.ToString("F1")%</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="text-center">Нет данных для отображения.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Кнопки экспорта -->
+    <div class="mt-4">
+        <a href="@Url.Action("ExportGroupsToExcel", "GroupFillingReport", new {
+            danceStyleId = Model.SelectedDanceStyleId,
+            levelId = Model.SelectedLevelId,
+            instructorId = Model.SelectedInstructorId,
+            dateFrom = Model.DateFrom?.ToString("yyyy-MM-dd"),
+            dateTo = Model.DateTo?.ToString("yyyy-MM-dd")
+        })" class="btn btn-success">
+            Экспортировать в Excel
+        </a>
+
+     @*    <a href="@Url.Action("ExportGroupsToPdf", "GroupFillingReport", new {
+            danceStyleId = Model.SelectedDanceStyleId,
+            levelId = Model.SelectedLevelId,
+            instructorId = Model.SelectedInstructorId,
+            dateFrom = Model.DateFrom?.ToString("yyyy-MM-dd"),
+            dateTo = Model.DateTo?.ToString("yyyy-MM-dd")
+        })" class="btn btn-danger">
+            Экспортировать в PDF
+        </a> *@
+    </div>
+}
+else
+{
+    <p class="text-muted mt-3">Пожалуйста, выберите период по датам и нажмите «Применить фильтр» для отображения данных.</p>
+}

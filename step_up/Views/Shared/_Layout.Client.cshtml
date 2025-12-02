@@ -1,0 +1,83 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using System.Security.Claims
+@inject SignInManager<step_up.Models.User> SignInManager
+@inject UserManager<step_up.Models.User> UserManager
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Step up</title>
+    <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/step_up.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Хедер -->
+    <header class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo"><a asp-action="Index" asp-controller="Home" class="logoa">Step Up</a></div>
+                <nav class="nav-links">
+                    <a asp-action="DanceStyles" asp-controller="Home">Направления</a>
+                    <a asp-action="Schedule" asp-controller="Home">Расписание</a>
+                    <a asp-action="Teachers" asp-controller="Home">Педагоги</a>
+                    <a href="#price">Цена</a>
+                    <a asp-action="History" asp-controller="Home">О нас</a>
+                    <a asp-action="Halls" asp-controller="Home">Залы</a>
+                    <a href="#contacts">Контакты</a>
+                </nav>
+
+                @if (SignInManager.IsSignedIn(User))
+                {
+                    var currentUser = await UserManager.GetUserAsync(User);
+                    var roles = await UserManager.GetRolesAsync(currentUser);
+
+                    if (roles.Contains("Admin"))
+                    {
+                        <a  asp-controller="Instructors" asp-action="Index" class="profile-icon">
+                            <img src="/images/icon/ac.png" alt="Админ-панель" />
+                        </a>
+                    }
+                    else
+                    {
+                        <a asp-area="Identity" asp-page="/Account/Profile" class="profile-icon">
+                            <img src="/images/icon/ac.png" alt="Личный кабинет" />
+                        </a>
+                    }
+                }
+                else
+                {
+                    <a asp-area="Identity" asp-page="/Account/Login" class="profile-icon">
+                        <img src="/images/icon/ac.png" alt="Вход или регистрация" />
+                    </a>
+                }
+            </div>
+        </div>
+    </header>
+
+    <!-- Основной контент страницы -->
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <h2>Наши контакты</h2>
+            <p>Телефон: +375 29 123 45 67</p>
+            <p>Адрес: Минск, ул. Танцевальная, 7</p>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

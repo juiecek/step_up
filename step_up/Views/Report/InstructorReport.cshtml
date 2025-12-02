@@ -1,0 +1,90 @@
+﻿@using step_up.Models 
+@using step_up.Models.ViewModels
+@model InstructorReportViewModel
+
+@{
+    ViewData["Title"] = "Отчёт по преподавателю";
+    var instructors = ViewBag.Instructors as List<Instructors>;
+    Layout = "~/Views/Shared/_Layout.Admin.cshtml";
+}
+
+<h1>Отчёт по преподавателю</h1>
+
+<form asp-action="InstructorReport" method="get">
+    <select name="id" class="form-control" required>
+        <option value="">Выберите преподавателя</option>
+        @foreach (var instructor in ViewBag.Instructors as List<Instructors>)
+        {
+            <option value="@instructor.Id">@instructor.FullName</option>
+        }
+    </select>
+
+    <label>С:</label>
+    <input type="date" name="startDate" class="form-control" />
+    <label>По:</label>
+    <input type="date" name="endDate" class="form-control" />
+
+    <button type="submit" class="btn btn-primary mt-2">Показать отчет</button>
+</form>
+
+
+
+@if (Model != null)
+{
+    <div class="mt-4 card p-4">
+        <h3>@Model.Instructor.FullName</h3>
+      
+        <p><strong>Телефон:</strong> @Model.Instructor.Phone</p>
+        <p><strong>Количество занятий:</strong> @Model.TotalSchedules</p>
+        <p><strong>Записей на занятия:</strong> @Model.TotalRegistrations</p>
+        <p><strong>Средний рейтинг:</strong> @Model.AverageRating.ToString("0.0")</p>
+
+      @*   <h4>Занятия в периоде</h4>
+        @if (Model.SchedulesInPeriod.Any())
+        {
+            <ul>
+                @foreach (var schedule in Model.SchedulesInPeriod)
+                {
+                    <li>
+                        <strong>@schedule.DayOfWeek</strong> в @schedule.StartTime
+                        <br />
+                        @foreach (var sds in schedule.ScheduleDanceStyles)
+                        {
+                            <span>Направление: @sds.DanceStyle.Name, Уровень: @sds.Level.Name</span>
+
+                            <br />
+
+                        }
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>Нет занятий в указанный период.</p>
+        } *@
+
+
+        <h4 class="mt-3">Отзывы:</h4>
+        @if (Model.Reviews.Any())
+        {
+            <ul>
+                @foreach (var review in Model.Reviews.OrderByDescending(r => r.CreatedAt))
+                {
+                    <li>
+                        <strong>Оценка:</strong> @review.Rating,
+                        <strong>Комментарий:</strong> @review.Comment,
+                        <strong>Дата:</strong> @review.CreatedAt.ToShortDateString()
+                    </li>
+                }
+            </ul>
+        }
+        else
+        {
+            <p>Пока нет отзывов.</p>
+        }
+        <div class="mt-4">
+            <a href="@Url.Action("ExportToPdf", "Report", new { id = Model.Instructor.Id })" class="btn btn-danger">Экспортировать в PDF</a>
+        </div>
+    </div>
+}

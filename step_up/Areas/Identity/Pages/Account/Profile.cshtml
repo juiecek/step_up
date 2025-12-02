@@ -1,0 +1,123 @@
+﻿@page
+@model step_up.Areas.Identity.Pages.Account.ProfileModel
+@{
+    ViewData["Title"] = "Личный кабинет";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<div class="card shadow-sm p-4">
+    <div class="row">
+        <div class="col-md-6">
+            <h3 class="mb-3">Персональная информация</h3>
+            <form method="post">
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input class="form-control" value="@User.Identity.Name" disabled />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Полное имя</label>
+                    <input asp-for="Input.FullName" class="form-control" value="@Model.Input.FullName" />
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Номер пользователя</label>
+                    <input asp-for="Input.UserNumber" class="form-control" value="@Model.Input.UserNumber" disabled />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Input.NewPassword" class="form-label">Новый пароль</label>
+                    <input asp-for="Input.NewPassword" class="form-control" type="password" />
+                    <span asp-validation-for="Input.NewPassword" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Раздел с абонементами -->
+    <div class="mt-4">
+        <h3>Ваши абонементы</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название</th>
+                    <th>Цена</th>
+                    <th>Дата покупки</th>
+                    <th>Срок действия</th>
+                    <th>Оставшиеся занятия</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var subscription in Model.UserSubscriptions)
+                {
+                    <tr>
+                        <td>@subscription.Subscription.Name</td>
+                        <td>@subscription.Subscription.Price</td>
+                        <td>@subscription.PurchaseDate.ToShortDateString()</td>
+                        <td>@subscription.ExpiryDate.ToShortDateString()</td>
+                        <td>@subscription.ClassesRemaining</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- Раздел с записями на занятия -->
+    <div class="mt-5">
+        <h3>Ваши записи на занятия</h3>
+        @if (Model.UserRegistrations.Any())
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Дата</th>
+                        <th>Время</th>
+                        <th>Направление</th>
+                        <th>Преподаватель</th>
+                        <th>Посещение</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var reg in Model.UserRegistrations.OrderByDescending(r => r.Date))
+                    {
+                        var schedule = reg.Schedule;
+                        var danceStyle = schedule?.ScheduleDanceStyles.FirstOrDefault()?.DanceStyle?.Name;
+                        var lessonTime = schedule?.StartTime.ToString(@"hh\:mm"); // форматируем TimeSpan
+
+                        <tr>
+                            <td>@reg.Date.ToShortDateString()</td>
+                            <td>@lessonTime</td>
+                            <td>@danceStyle</td>
+                            <td>@schedule?.Instructor?.FullName</td>
+                            <td>
+                                @if (reg.Attended)
+                                {
+                                    <span class="text-success">Посетил</span>
+                                }
+                                else
+                                {
+                                    <span class="text-danger">Не посетил</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>Вы ещё не записаны ни на одно занятие.</p>
+        }
+    </div>
+
+
+
+    <div class="mt-4">
+        <form method="post" asp-page="/Account/Logout" asp-route-returnUrl="/">
+            <button type="submit" class="btn btn-danger">Выйти из аккаунта</button>
+        </form>
+
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
